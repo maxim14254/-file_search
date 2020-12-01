@@ -2,7 +2,7 @@
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 
-class BufferedTreeView : TreeView
+class TreeView1 : TreeView
 {
     protected override void OnHandleCreated(EventArgs e)
     {

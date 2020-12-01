@@ -40,7 +40,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
-            this.treeView1 = new BufferedTreeView();
+            this.treeView1 = new TreeView1();
             this.SuspendLayout();
             // 
             // openFileDialog1
@@ -184,7 +184,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Timer timer2;
-        private BufferedTreeView treeView1;
+        private TreeView1 treeView1;
     }
 }
 
