@@ -49,7 +49,8 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(459, 20);
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.Location = new System.Drawing.Point(480, 20);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(126, 23);
             this.button1.TabIndex = 0;
@@ -59,7 +60,8 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(459, 62);
+            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button2.Location = new System.Drawing.Point(480, 62);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(126, 23);
             this.button2.TabIndex = 3;
@@ -69,10 +71,12 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(31, 20);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(398, 21);
+            this.comboBox1.Size = new System.Drawing.Size(420, 21);
             this.comboBox1.TabIndex = 4;
             this.comboBox1.Text = "Введитe путь";
             this.comboBox1.Enter += new System.EventHandler(this.comboBox1_Enter);
@@ -80,10 +84,12 @@
             // 
             // comboBox2
             // 
+            this.comboBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(31, 64);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(398, 21);
+            this.comboBox2.Size = new System.Drawing.Size(420, 21);
             this.comboBox2.TabIndex = 5;
             this.comboBox2.Text = "Введитe имя файла";
             this.comboBox2.Enter += new System.EventHandler(this.comboBox2_Enter);
@@ -106,7 +112,8 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(459, 114);
+            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button3.Location = new System.Drawing.Point(480, 114);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(126, 23);
             this.button3.TabIndex = 8;
@@ -125,9 +132,10 @@
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(485, 164);
+            this.label2.Location = new System.Drawing.Point(506, 164);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(71, 29);
             this.label2.TabIndex = 10;
@@ -140,16 +148,19 @@
             // 
             // treeView1
             // 
+            this.treeView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.treeView1.Location = new System.Drawing.Point(31, 114);
             this.treeView1.Name = "treeView1";
-            this.treeView1.Size = new System.Drawing.Size(398, 298);
+            this.treeView1.Size = new System.Drawing.Size(420, 347);
             this.treeView1.TabIndex = 11;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(607, 454);
+            this.ClientSize = new System.Drawing.Size(647, 500);
             this.Controls.Add(this.treeView1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -159,8 +170,6 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.MaximumSize = new System.Drawing.Size(623, 493);
-            this.MinimumSize = new System.Drawing.Size(623, 493);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
